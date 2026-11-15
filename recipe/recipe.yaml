@@ -27,10 +27,15 @@ requirements:
     - wheel
   run:
     - python >=${{ python_min }}
-    - parcels >=3.1, <4
+    - parcels >=4.0.3
     - copernicusmarine
     - shapely
     - geopandas
+    - gsw
+    - python-dateutil = "<3"
+    - netcdf4
+    - h5py
+    - cmocean
 
 tests:
   - python:
